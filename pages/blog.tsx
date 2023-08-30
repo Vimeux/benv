@@ -23,8 +23,6 @@ export default function Blog({ allPosts }: Props) {
           <title>{`Next.js Blog Example with ${CMS_NAME}`}</title>
         </Head>
         <Container>
-          <Header />
-          <Intro />
           {heroPost && (
             <HeroPost
               title={heroPost.title}
