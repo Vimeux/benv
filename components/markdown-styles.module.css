@@ -16,3 +16,11 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+.markdown pre {
+  @apply bg-gray-900 p-4 rounded-lg shadow-md;
+}
+
+.markdown code {
+  @apply whitespace-break-spaces text-sm;
+}
